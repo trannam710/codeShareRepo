@@ -25,16 +25,7 @@ response = requests.get(""https://api.github.com"")
 
 # Print the status code
 print(response.status_code)",Making a GET request using the requests library
-3,max_credit_amount = max([df['Credit amount (Custom)'].max() for df in DF]),Test
-4,"max_credit_amount = max([df['Credit amount (Custom)'].max() for df in DF])
-
-
-print(hello)",Test
-5,"max_debit_amount = max(DF['Debit amount (Custom)'])
-
-print(max_debit_amount)",Test
-6,"max_debit_amount = max(DF['Debit amount (Custom)'])
-
-print(max_debit_amount)
-
-print(""helo"")",Test
+,,
+,,
+,,
+,,
