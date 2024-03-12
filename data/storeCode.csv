@@ -1,0 +1,27 @@
+,Code,Description
+0,"import pandas as pd
+
+# Create a DataFrame
+data = {""Name"": [""Alice"", ""Bob"", ""Charlie""], ""Age"": [25, 30, 35]}
+df = pd.DataFrame(data)
+print(df)",Creating a Pandas DataFrame
+1,"import matplotlib.pyplot as plt
+import numpy as np
+
+# Create data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Plot data
+plt.plot(x, y)
+plt.xlabel(""X-axis"")
+plt.ylabel(""Y-axis"")
+plt.title(""Sine Wave"")
+plt.show()",Plotting a sine wave using Matplotlib
+2,"import requests
+
+# Make a GET request
+response = requests.get(""https://api.github.com"")
+
+# Print the status code
+print(response.status_code)",Making a GET request using the requests library
