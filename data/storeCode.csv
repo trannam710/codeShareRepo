@@ -33,3 +33,8 @@ print(hello)",Test
 5,"max_debit_amount = max(DF['Debit amount (Custom)'])
 
 print(max_debit_amount)",Test
+6,"max_debit_amount = max(DF['Debit amount (Custom)'])
+
+print(max_debit_amount)
+
+print(""helo"")",Test
