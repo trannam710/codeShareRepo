@@ -4,7 +4,7 @@
 # Create a DataFrame
 data = {""Name"": [""Alice"", ""Bob"", ""Charlie""], ""Age"": [25, 30, 35]}
 df = pd.DataFrame(data)
-print(df)",12-03-24 15:53
+print(df)",12/03/2024 15:58:15
 1,Plotting a sine wave using Matplotlib,"import matplotlib.pyplot as plt
 import numpy as np
 
@@ -17,14 +17,14 @@ plt.plot(x, y)
 plt.xlabel(""X-axis"")
 plt.ylabel(""Y-axis"")
 plt.title(""Sine Wave"")
-plt.show()",12-03-24 15:53
+plt.show()",12/03/2024 15:58:15
 2,Making a GET request using the requests library,"import requests
 
 # Make a GET request
 response = requests.get(""https://api.github.com"")
 
 # Print the status code
-print(response.status_code)",12-03-24 15:53
+print(response.status_code)",12/03/2024 15:58:15
 3,Test Upload,"print(""Test"")
 
 print(""Test"")
