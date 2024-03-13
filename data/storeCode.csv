@@ -269,3 +269,17 @@ df = pd.DataFrame(data)
 max_value = df['Values'].max()
 
 print(""Maximum value:"", max_value)",13/03/2024 12:31:23
+19,Test 2,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'Category': ['A', 'A', 'B', 'B', 'C', 'C'],
+    'Values': [10, 15, 20, 25, 30, 35]
+}
+
+df = pd.DataFrame(data)
+
+# Get the maximum value from the 'Values' column
+max_value = df['Values'].max()
+
+print(""Maximum value:"", max_value)",13/03/2024 12:31:50
