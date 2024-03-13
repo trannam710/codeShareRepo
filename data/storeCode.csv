@@ -268,3 +268,4 @@ max_value = df['Values'].max()
 
 print(""Maximum value:"", max_value)",13/03/2024 12:34:40
 17,Test 3,"{'id': '', 'type': '', 'text': '', 'lang': '', 'cursor': ''}",13/03/2024 12:35:37
+18,Test 3,"titanic[""Pclass""].value_counts()",13/03/2024 12:36:10
