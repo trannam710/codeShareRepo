@@ -76,7 +76,7 @@ plt.title('Histogram Example')
 # Displaying the plot
 plt.grid(True)  # Add grid
 plt.show()",12-03-24 15:58
-,Plotting a pie chart using Matplotlib,"import pandas as pd
+5,Plotting a pie chart using Matplotlib,"import pandas as pd
 import matplotlib.pyplot as plt
 
 # Sample DataFrame
@@ -97,7 +97,7 @@ plt.title('Pie Chart Example')
 # Displaying the plot
 plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
 plt.show()",12-03-24 15:58
-,Plotting a box plot using Matplotlib,"import pandas as pd
+6,Plotting a box plot using Matplotlib,"import pandas as pd
 import matplotlib.pyplot as plt
 
 # Sample DataFrame
@@ -123,7 +123,7 @@ plt.title('Box Plot Example')
 # Displaying the plot
 plt.grid(True)  # Add grid
 plt.show()",12-03-24 15:58
-,Plotting a tree map using Matplotlib,"import matplotlib.pyplot as plt
+7,Plotting a tree map using Matplotlib,"import matplotlib.pyplot as plt
 import squarify
 
 # Sample data
@@ -142,7 +142,7 @@ plt.axis('off')
 
 # Displaying the plot
 plt.show()",12-03-24 15:58
-,Get max value of a field,"import pandas as pd
+8,Get max value of a field,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -156,7 +156,7 @@ df = pd.DataFrame(data)
 max_value = df['Values'].max()
 
 print(""Maximum value:"", max_value)",12-03-24 15:58
-,Get max value between 2 fields,"import pandas as pd
+9,Get max value between 2 fields,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -170,7 +170,7 @@ df = pd.DataFrame(data)
 max_values = df[['field1', 'field2']].max(axis=1)
 
 print(max_values)",12-03-24 15:58
-,Get min value between 2 fields,"import pandas as pd
+10,Get min value between 2 fields,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -184,7 +184,7 @@ df = pd.DataFrame(data)
 min_values = df[['field1', 'field2']].min(axis=1)
 
 print(min_values)",12-03-24 15:58
-,Get min value of a field,"import pandas as pd
+11,Get min value of a field,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -197,7 +197,7 @@ df = pd.DataFrame(data)
 min_value = df['field1'].min()
 
 print(min_value)",12-03-24 15:58
-,Get summary statistics of numerical columns,"import pandas as pd
+12,Get summary statistics of numerical columns,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -211,7 +211,7 @@ df = pd.DataFrame(data)
 description = df.describe()
 
 print(description)",12-03-24 15:58
-,Get mean of a field,"import pandas as pd
+13,Get mean of a field,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -225,7 +225,7 @@ df = pd.DataFrame(data)
 mean_field1 = df['field1'].mean()
 
 print(mean_field1)",12-03-24 15:58
-,Get median of a field,"import pandas as pd
+14,Get median of a field,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -239,7 +239,7 @@ df = pd.DataFrame(data)
 median_field1 = df['field1'].median()
 
 print(median_field1)",12-03-24 15:58
-,Group by a field in the dataframe and caculate,"import pandas as pd
+15,Group by a field in the dataframe and caculate,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -253,3 +253,4 @@ df = pd.DataFrame(data)
 grouped_mean = df.groupby('group')['values'].mean()
 
 print(grouped_mean)",12-03-24 15:58
+16,Count number of records by category,,13/03/2024 12:29:33
