@@ -44,3 +44,17 @@ print(""Test"")
 print(""Test"")
 
 print(""Test"")",12/03/2024 15:58:15
+4,Plot line chart,"import matplotlib.pyplot as plt
+import numpy as np
+
+# Create data
+x = np.linspace(0, 10, 200)
+y = np.sin(x)
+
+# Plot data
+plt.plot(x, y)
+plt.xlabel(""X-axis"")
+plt.ylabel(""Y-axis"")
+plt.title(""Sine Wave"")
+plt.show()
+st.pyplot()",13/03/2024 09:34:56
