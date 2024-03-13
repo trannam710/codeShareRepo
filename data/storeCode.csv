@@ -4,57 +4,252 @@
 # Create a DataFrame
 data = {""Name"": [""Alice"", ""Bob"", ""Charlie""], ""Age"": [25, 30, 35]}
 df = pd.DataFrame(data)
-print(df)",12/03/2024 15:58:15
-1,Plotting a sine wave using Matplotlib,"import matplotlib.pyplot as plt
-import numpy as np
+print(df)",12-03-24 15:58
+1,Plotting a bar chart using Matplotlib,"import matplotlib.pyplot as plt
 
-# Create data
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+# Sample data
+categories = ['A', 'B', 'C', 'D', 'E']
+values = [23, 45, 56, 78, 33]
 
-# Plot data
-plt.plot(x, y)
-plt.xlabel(""X-axis"")
-plt.ylabel(""Y-axis"")
-plt.title(""Sine Wave"")
-plt.show()",12/03/2024 15:58:15
-2,Making a GET request using the requests library,"import requests
+# Plotting the bar chart
+plt.bar(categories, values)
 
-# Make a GET request
-response = requests.get(""https://api.github.com"")
+# Adding labels and title
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Bar Chart Example')
 
-# Print the status code
-print(response.status_code)",12/03/2024 15:58:15
-3,Test Upload,"print(""Test"")
+# Displaying the plot
+plt.show()",12-03-24 15:58
+2,Plotting a line chart using Matplotlib,"import matplotlib.pyplot as plt
 
-print(""Test"")
+# Sample data
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 18, 16]
 
-print(""Test"")
+# Plotting the line chart
+plt.plot(x_values, y_values, marker='o', linestyle='-')
 
-print(""Test"")
+# Adding labels and title
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Line Chart Example')
 
-print(""Test"")
+# Displaying the plot
+plt.grid(True)  # Add grid
+plt.show()",12-03-24 15:58
+3,Plotting a scatter chart using Matplotlib,"import matplotlib.pyplot as plt
 
-print(""Test"")
+# Sample data
+x_values = [1, 2, 3, 4, 5]
+y_values = [10, 15, 13, 18, 16]
 
-print(""Test"")
+# Plotting the scatter chart
+plt.scatter(x_values, y_values)
 
-print(""Test"")
+# Adding labels and title
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Scatter Chart Example')
 
-print(""Test"")
+# Displaying the plot
+plt.grid(True)  # Add grid
+plt.show()",12-03-24 15:58
+4,Plotting a histogram chart using Matplotlib,"import pandas as pd
+import matplotlib.pyplot as plt
 
-print(""Test"")",12/03/2024 15:58:15
-4,Plot line chart,"import matplotlib.pyplot as plt
-import numpy as np
+# Sample DataFrame
+data = {
+    'values': [5, 10, 15, 10, 20, 25, 30, 35, 40, 45]
+}
 
-# Create data
-x = np.linspace(0, 10, 200)
-y = np.sin(x)
+df = pd.DataFrame(data)
 
-# Plot data
-plt.plot(x, y)
-plt.xlabel(""X-axis"")
-plt.ylabel(""Y-axis"")
-plt.title(""Sine Wave"")
-plt.show()
-st.pyplot()",13/03/2024 09:34:56
+# Plotting the histogram
+plt.hist(df['values'], bins=5, color='skyblue', edgecolor='black')
+
+# Adding labels and title
+plt.xlabel('Values')
+plt.ylabel('Frequency')
+plt.title('Histogram Example')
+
+# Displaying the plot
+plt.grid(True)  # Add grid
+plt.show()",12-03-24 15:58
+,Plotting a pie chart using Matplotlib,"import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample DataFrame
+data = {
+    'category': ['A', 'B', 'C', 'D', 'E'],
+    'values': [10, 20, 15, 25, 30]
+}
+
+df = pd.DataFrame(data)
+
+# Plotting the pie chart
+plt.figure(figsize=(8, 8))  # Set the figure size
+plt.pie(df['values'], labels=df['category'], autopct='%1.1f%%', startangle=140)
+
+# Adding title
+plt.title('Pie Chart Example')
+
+# Displaying the plot
+plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+plt.show()",12-03-24 15:58
+,Plotting a box plot using Matplotlib,"import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample DataFrame
+data = {
+    'Category': ['A', 'A', 'B', 'B', 'C', 'C'],
+    'Values': [10, 15, 20, 25, 30, 35]
+}
+
+df = pd.DataFrame(data)
+
+# Plotting the box plot
+plt.figure(figsize=(8, 6))  # Set the figure size
+plt.boxplot([df[df['Category'] == 'A']['Values'], 
+             df[df['Category'] == 'B']['Values'], 
+             df[df['Category'] == 'C']['Values']], 
+            labels=['A', 'B', 'C'])
+
+# Adding title and labels
+plt.xlabel('Category')
+plt.ylabel('Values')
+plt.title('Box Plot Example')
+
+# Displaying the plot
+plt.grid(True)  # Add grid
+plt.show()",12-03-24 15:58
+,Plotting a tree map using Matplotlib,"import matplotlib.pyplot as plt
+import squarify
+
+# Sample data
+sizes = [20, 30, 40, 10]
+labels = [""A"", ""B"", ""C"", ""D""]
+
+# Plotting the TreeMap
+plt.figure(figsize=(8, 6))  # Set the figure size
+squarify.plot(sizes=sizes, label=labels, alpha=0.7)
+
+# Adding title
+plt.title('TreeMap Example')
+
+# Removing axes
+plt.axis('off')
+
+# Displaying the plot
+plt.show()",12-03-24 15:58
+,Get max value of a field,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'Category': ['A', 'A', 'B', 'B', 'C', 'C'],
+    'Values': [10, 15, 20, 25, 30, 35]
+}
+
+df = pd.DataFrame(data)
+
+# Get the maximum value from the 'Values' column
+max_value = df['Values'].max()
+
+print(""Maximum value:"", max_value)",12-03-24 15:58
+,Get max value between 2 fields,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40],
+    'field2': [15, 25, 35, 45]
+}
+
+df = pd.DataFrame(data)
+
+# Get the maximum value between 'field1' and 'field2' for each row
+max_values = df[['field1', 'field2']].max(axis=1)
+
+print(max_values)",12-03-24 15:58
+,Get min value between 2 fields,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40],
+    'field2': [15, 25, 35, 45]
+}
+
+df = pd.DataFrame(data)
+
+# Get the minimum value between 'field1' and 'field2' for each row
+min_values = df[['field1', 'field2']].min(axis=1)
+
+print(min_values)",12-03-24 15:58
+,Get min value of a field,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40]
+}
+
+df = pd.DataFrame(data)
+
+# Get the minimum value of 'field1'
+min_value = df['field1'].min()
+
+print(min_value)",12-03-24 15:58
+,Get summary statistics of numerical columns,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40],
+    'field2': [15, 25, 35, 45]
+}
+
+df = pd.DataFrame(data)
+
+# Get summary statistics of numerical columns in the DataFrame
+description = df.describe()
+
+print(description)",12-03-24 15:58
+,Get mean of a field,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40],
+    'field2': [15, 25, 35, 45]
+}
+
+df = pd.DataFrame(data)
+
+# Get the mean of 'field1'
+mean_field1 = df['field1'].mean()
+
+print(mean_field1)",12-03-24 15:58
+,Get median of a field,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'field1': [10, 20, 30, 40],
+    'field2': [15, 25, 35, 45]
+}
+
+df = pd.DataFrame(data)
+
+# Get the median of 'field1'
+median_field1 = df['field1'].median()
+
+print(median_field1)",12-03-24 15:58
+,Group by a field in the dataframe and caculate,"import pandas as pd
+
+# Sample DataFrame
+data = {
+    'group': ['A', 'A', 'B', 'B', 'C', 'C'],
+    'values': [10, 20, 30, 40, 50, 60]
+}
+
+df = pd.DataFrame(data)
+
+# Group by 'group' column and calculate the mean for each group
+grouped_mean = df.groupby('group')['values'].mean()
+
+print(grouped_mean)",12-03-24 15:58
