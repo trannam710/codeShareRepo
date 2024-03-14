@@ -266,3 +266,6 @@ plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig('plot/0b6b3efb-2efe-4a6a-900a-d2a7900b7d8d.png')",14/03/2024 13:07:09
 17,Scatter diagram,,14/03/2024 13:17:01
+18,aaaa,"print(""TEST"")
+
+print(""Hello"")",14/03/2024 14:36:01
