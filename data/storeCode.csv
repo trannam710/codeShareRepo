@@ -239,7 +239,6 @@ df = pd.DataFrame(data)
 median_field1 = df['field1'].median()
 
 print(median_field1)",12-03-24 15:58
-15,test2,test2,14-03-2024 16:08
 16,Group by a field in the dataframe and caculate,"import pandas as pd
 
 # Sample DataFrame
