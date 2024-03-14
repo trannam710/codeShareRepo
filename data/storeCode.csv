@@ -253,6 +253,3 @@ df = pd.DataFrame(data)
 grouped_mean = df.groupby('group')['values'].mean()
 
 print(grouped_mean)",12-03-24 15:58
-16,Scatter diagram,,14/03/2024 13:17:01
-17,,,14-03-2024 15:10
-18,,,14-03-2024 15:18
