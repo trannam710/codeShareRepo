@@ -253,3 +253,11 @@ df = pd.DataFrame(data)
 grouped_mean = df.groupby('group')['values'].mean()
 
 print(grouped_mean)",14-03-2024 16:09
+16,Stacked Area Chart using matplotlib,"df = DF
+pivot_df = df.pivot_table(index='Transaction code text', columns='Transaction code', values='Debit amount (Custom)', aggfunc='sum')
+pivot_df.plot(kind='area', stacked=True, figsize=(12, 6))
+plt.title('Stacked Area Chart of Debit amount (Custom) by Transaction code')
+plt.xlabel('Transaction code text')
+plt.ylabel('Sum of Debit amount (Custom)')
+plt.legend(title='Transaction code', bbox_to_anchor=(1.05, 1), loc='upper left')
+",15-03-2024 10:02
