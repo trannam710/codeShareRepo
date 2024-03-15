@@ -239,7 +239,7 @@ df = pd.DataFrame(data)
 median_field1 = df['field1'].median()
 
 print(median_field1)",12-03-24 15:58
-16,Group by a field in the dataframe and caculate,"import pandas as pd
+15,Group by a field in the dataframe and caculate,"import pandas as pd
 
 # Sample DataFrame
 data = {
@@ -253,3 +253,4 @@ df = pd.DataFrame(data)
 grouped_mean = df.groupby('group')['values'].mean()
 
 print(grouped_mean)",14-03-2024 16:09
+16,Bar Chart for User,,15/03/2024 09:21:45
