@@ -253,4 +253,3 @@ df = pd.DataFrame(data)
 grouped_mean = df.groupby('group')['values'].mean()
 
 print(grouped_mean)",14-03-2024 16:09
-16,Bar Chart for User,,15/03/2024 09:21:45
