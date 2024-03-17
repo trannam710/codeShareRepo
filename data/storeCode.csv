@@ -261,3 +261,4 @@ plt.xlabel('Transaction code text')
 plt.ylabel('Sum of Debit amount (Custom)')
 plt.legend(title='Transaction code', bbox_to_anchor=(1.05, 1), loc='upper left')
 ",15-03-2024 10:02
+17,"df = DF pivot_df = df.pivot_table(index='Transaction code text', columns='Transaction code', values='Debit amount (Custom)', aggfunc='sum') pivot_df.plot(kind='area', stacked=True, figsize=(12, 6)) plt.title('Stacked Area Chart of Debit amount (Custom) by Transaction code') plt.xlabel('Transaction code text') plt.ylabel('Sum of Debit amount (Custom)') plt.legend(title='Transaction code', bbox_to_anchor=(1.05, 1), loc='upper left')",,17/03/2024 09:38:06
