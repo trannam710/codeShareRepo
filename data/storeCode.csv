@@ -261,3 +261,4 @@ plt.xlabel('Transaction code text')
 plt.ylabel('Sum of Debit amount (Custom)')
 plt.legend(title='Transaction code', bbox_to_anchor=(1.05, 1), loc='upper left')
 ",15-03-2024 10:02
+17,test,test,18-03-2024 10:17
