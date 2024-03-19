@@ -273,4 +273,3 @@ plt.grid(True)
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig('plot/45772857-5011-4500-b215-6ee3ec517c41.png')",18-03-2024 16:50
-18,test,test,19-03-2024 09:47
