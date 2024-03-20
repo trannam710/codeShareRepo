@@ -1,6 +1,6 @@
 ,Contract Name,KPI Categories,Status,Section,Value,Detail,Rate,Correct clause found
-0,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Contract Date,,,,,,
-1,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Effective Date,,,,,,
+0,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Contract Date,Yes,DISTRIBUTION LICENSE AGREEMENT,01 January 2022,"as of January 1, 2022, is made by and between SONY PICTURES",,
+1,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Effective Date,Yes,DISTRIBUTION LICENSE AGREEMENT,01 January 2022,"as of January 1, 2022, is made by and between SONY PICTURES",,
 2,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Renewal Term,,,,,,
 3,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Exit clause incl. notice period,Yes,LICENSE PERIOD,"contained herein, in the event this Agreement is terminated by",,,
 4,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Contract Parties,Yes,DEFINED TERMS,"By signing in the spaces provided below, Distributor and
@@ -19,7 +19,7 @@ By: ___________________________ By: ___________________________
 
 Title: ________________________ Title: ________________________",,,
 5,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Documents Retention Period,,,,,,
-6,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Audit Clause,Yes,THIRD PARTY PAYMENTS,any dispute which Distributor may have with such audit findings,,,
+6,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Audit Clause,Yes,BOOKS AND RECORDS/AUDIT,any dispute which Distributor may have with such audit findings,,,
 7,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Audit Frequency,,,,,,
 8,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Audit Duration,,,,,,
 9,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Contract Fees,,,,,,
@@ -65,7 +65,11 @@ enable licensor to validate the proper calculation of
 distribution expenses.  licensor shall have the right to
 designate and/or approve all persons providing goods and/or
 
-ts are a distribution expense of the film(s).
+confidential
+
+
+5
+services whose costs are a distribution expense of the film(s).
 distribution expenses shall include, without limitation, the
 following:
 
@@ -122,7 +126,11 @@ provided to distributor free of charge hereunder.
 any local taxes based on film rentals,
 film hire turnover or distribution expenses such as sales,
 
-lue added taxes which, in the normal course
+confidential
+
+
+6
+use, excise and value added taxes which, in the normal course
 of business, are not recoverable by distributor either from
 customers, or by credit or otherwise.
 
@@ -185,7 +193,11 @@ taxes:  if, in accordance with any applicable laws,
 any income tax withholding (other than distributor income
 taxes) is imposed by any governmental authority in the
 
-mount required to be remitted by distributor
+confidential
+
+
+7
+territory on any amount required to be remitted by distributor
 to licensor hereunder, distributor shall deduct (or cause the
 deduction of) the amount of such tax from licensor’s share and
 pay (or cause the payment of) such tax to the applicable tax
@@ -238,41 +250,3 @@ under the applicable tax law.
 18,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Performance Bonus,,,,,,
 19,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Data Protection and Privacy,,,,,,
 20,GALAXY Vietnam Dist Agt 2022 D1A per DJO 21 Jan 2022.pdf,Confidentiality,Yes,DELIVERY ITEMS,"protection, data transfer, privacy, or information security or",,,
-0,Accounting Services Contract Template (New).pdf,Contract Date,Yes,Accounting Services Contract,01 April 2022,"Accounting Services ContractThis Accounting Contract (the ""Contract"") is entered into on 1st April 2022 (the",,
-1,Accounting Services Contract Template (New).pdf,Effective Date,,,,,,
-2,Accounting Services Contract Template (New).pdf,Renewal Term,,,,,,
-3,Accounting Services Contract Template (New).pdf,Exit clause incl. notice period,Yes,Terms,until [31st March 2025] unless terminated earlier as provided herein.,,,
-4,Accounting Services Contract Template (New).pdf,Contract Parties,Yes,Entire Agreement,"IENT]
-The Continental
-Sony Group Corporation
-[SIGNATURE]
-[SIGNATURE]
-Date: 20th March 2020
-Date: 21t March 2020",,,
-5,Accounting Services Contract Template (New).pdf,Documents Retention Period,,,,,,
-6,Accounting Services Contract Template (New).pdf,Audit Clause,,,,,,
-7,Accounting Services Contract Template (New).pdf,Audit Frequency,,,,,,
-8,Accounting Services Contract Template (New).pdf,Audit Duration,,,,,,
-9,Accounting Services Contract Template (New).pdf,Contract Fees,,,,,,
-10,Accounting Services Contract Template (New).pdf,Payment Terms,,,,,,
-11,Accounting Services Contract Template (New).pdf,Contract Scope,,,,,,
-12,Accounting Services Contract Template (New).pdf,KPIs,,,,,,
-13,Accounting Services Contract Template (New).pdf,Service Level Agreement,,,,,,
-14,Accounting Services Contract Template (New).pdf,Roles and Responsibilities,Yes,Services performed during the preceding month. Client shall pay such invoices within,"by any governmental authority on the Services, except for taxes based on the",,,
-15,Accounting Services Contract Template (New).pdf,Deliverables,Yes,Services,"services enlisted below:
-a. service 1
-b. service 2
-c. service 3
-d. service 4
-e. service 5
-1.1. accounting firm shall not be obligated to perform any services for client other
-than those set forth in this contract, unless such services are expressly agreed upon
-in writing by the parties.
-1.2. accounting firm does not guarantee any speciﬁc results or outcomes as a result
-of providing the services, except as set forth in the slas.
-",,,
-16,Accounting Services Contract Template (New).pdf,Contractual Reporting,,,,,,
-17,Accounting Services Contract Template (New).pdf,Performance Review,,,,,,
-18,Accounting Services Contract Template (New).pdf,Performance Bonus,,,,,,
-19,Accounting Services Contract Template (New).pdf,Data Protection and Privacy,,,,,,
-20,Accounting Services Contract Template (New).pdf,Confidentiality,Yes,Services performed during the preceding month. Client shall pay such invoices within,"The Parties may execute a separate non-disclosure agreement (""NDA"") to further",,,
